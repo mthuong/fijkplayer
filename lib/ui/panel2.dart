@@ -376,7 +376,7 @@ class __FijkPanel2State extends State<_FijkPanel2> {
           buildPlayButton(context, height),
           buildTimeText(context, height),
           Expanded(child: buildSlider(context)),
-          buildFullScreenButton(context, height),
+          // buildFullScreenButton(context, height),
         ],
       );
     } else {
@@ -384,7 +384,7 @@ class __FijkPanel2State extends State<_FijkPanel2> {
         children: <Widget>[
           buildPlayButton(context, height),
           Expanded(child: Container()),
-          buildFullScreenButton(context, height),
+          // buildFullScreenButton(context, height),
         ],
       );
     }
